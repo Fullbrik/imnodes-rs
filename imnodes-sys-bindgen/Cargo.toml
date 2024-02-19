@@ -6,4 +6,4 @@ edition = "2021"
 
 [dependencies]
 bindgen = "0.66.1"
-imgui-sys = "0.11.0"
+imgui-sys = {git = "https://github.com/imgui-rs/imgui-rs.git", rev = "ca05418cb449dadaabf014487c5c965908dfcbdd"}

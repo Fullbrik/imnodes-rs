@@ -10,11 +10,11 @@ readme = "README.md"
 
 [dependencies]
 imnodes-sys = { version = "0.2.2", path = "imnodes-sys" }
-imgui = "0.11.0"
+imgui = {git = "https://github.com/imgui-rs/imgui-rs.git", rev = "ca05418cb449dadaabf014487c5c965908dfcbdd"}
 
 [features]
 # export all low level functions
 include_low_level_bindings = []
 
 [workspace]
-members = ["imnodes-sys", "imnodes-wgpu-examples", "imnodes-sys-bindgen"]
+members = ["imnodes-sys", "imnodes-sys-bindgen"]
