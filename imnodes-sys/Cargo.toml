@@ -10,7 +10,7 @@ build = "build.rs"
 links = "imnodes"
 
 [dependencies]
-imgui-sys = {git = "https://github.com/imgui-rs/imgui-rs.git", rev = "ca05418cb449dadaabf014487c5c965908dfcbdd"}
+imgui-sys = {git = "https://github.com/imgui-rs/imgui-rs.git", rev = "67f7f11363e62f09aa0e1288a17800e505860486"}
 
 [build-dependencies]
 cc = "1.0.83"

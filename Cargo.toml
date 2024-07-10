@@ -10,7 +10,7 @@ readme = "README.md"
 
 [dependencies]
 imnodes-sys = { version = "0.2.2", path = "imnodes-sys" }
-imgui = {git = "https://github.com/imgui-rs/imgui-rs.git", rev = "ca05418cb449dadaabf014487c5c965908dfcbdd"}
+imgui = {git = "https://github.com/imgui-rs/imgui-rs.git", rev = "67f7f11363e62f09aa0e1288a17800e505860486"}
 
 [features]
 # export all low level functions
